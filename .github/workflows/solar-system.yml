@@ -107,7 +107,7 @@ jobs:
             with:
               version: 1.26.0
           - name: Set context
-            uses: azure/k8s-set-context@v3.0.0
+            uses: azure/k8s-set-context@v3.0
             with:
               kubeconfig: ${{ secrets.KUBECONFIG }}
           - name: Execute cmd
